@@ -1,0 +1,7 @@
+com\todolist\ChangeTaskStatus.class
+com\todolist\Task.class
+com\todolist\EditTask.class
+com\todolist\Main.class
+com\todolist\AddTask.class
+com\todolist\RemoveTask.class
+com\todolist\ViewTasks.class
