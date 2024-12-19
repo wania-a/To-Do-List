@@ -4,7 +4,8 @@ public class Task {
     private String title;
     private String description;
     private String deadline;
-    private String status; 
+    private String status;
+    private int id; 
 
     public Task(String title) {
         this.title = title;
@@ -41,6 +42,14 @@ public class Task {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override
